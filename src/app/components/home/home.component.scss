@@ -401,6 +401,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .mainflexProperties2 {
     display: flex;
     flex-wrap: wrap;
@@ -435,8 +436,267 @@
     opacity: 1;
 }
 
-.ImageProperties{
+.ImageProperties {
     width: 220px;
-height: 220px;
-// margin-bottom: 28px;
+    height: 220px;
+    // margin-bottom: 28px;
+}
+
+
+
+// Steps Steps Steps Steps Steps Steps Steps Steps Steps Steps Steps Steps Steps Steps Steps Steps Steps Steps Steps Steps Steps Steps Steps Steps Steps Steps Steps Steps
+.backgroundStep {
+    background-color: #6184D8;
+}
+
+.StepsHeading {
+    padding-top: 70px;
+    padding-bottom: 44px;
+    text-align: center;
+    font: normal normal 800 50px/49px Gilroy;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.stepsSecondHeading {
+    text-align: left;
+    font: normal normal 800 45px/29px Gilroy;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 4px;
+}
+
+.Steps1SecondHeading {
+    text-align: left;
+    font: normal normal 800 27px/49px Gilroy;
+    letter-spacing: 0px;
+    color: #23CE6B;
+    text-transform: uppercase;
+    opacity: 1;
+
+}
+
+
+.StepsText {
+    text-align: left;
+    font: normal normal medium 21px/29px RobotoLight;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 20px;
+}
+
+.margintop44px {
+    margin-top: 44px;
+}
+
+.CircleHeading {
+    width: 115px;
+    height: 115px;
+
+    /* UI Properties */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent linear-gradient(328deg, #4D80FB 0%, #23CE6B 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.FlexStepSetting {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexColoumnsSerring {
+    display: flex;
+    flex-direction: column;
+}
+
+.nextImage {
+    padding: 56px 0px 20px 0px;
+}
+
+.stepsBottomBox {
+
+    box-shadow: 6px 6px 2px #6184D8;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    opacity: 1;
+    padding: 52px 57px;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.StepsText2 {
+    text-align: center;
+    font: normal normal medium 21px/29px RobotoLight;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 20px;
+}
+
+.stepsSecondHeading2 {
+    text-align: center;
+    font: normal normal 800 45px/29px Gilroy;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 4px;
+}
+
+
+// KFCBG KFCBG KFCBG KFCBG KFCBG KFCBG KFCBG KFCBG KFCBG KFCBG KFCBG KFCBG KFCBG KFCBG KFCBG KFCBG KFCBG KFCBG KFCBG KFCBG KFCBG KFCBG KFCBG KFCBG KFCBG KFCBG KFCBG KFCBG
+.kFCbg {
+    background-image: url('../../../assets/Images/Group\ 2110.png');
+    padding: 35px 0px;
+}
+
+.mainHeadingKFC {
+    text-align: left;
+    font: normal normal 800 50px/65px Gilroy;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.headingGreenKFC {
+    text-align: left;
+    font: normal normal 800 50px/65px Gilroy;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: #23CE6B;
+    text-transform: uppercase;
+}
+
+.textKFC {
+    margin-top: 30px;
+    text-align: left;
+    font: normal normal normal 21px/29px RobotoLight;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.buttonKFC {
+    width: 320px;
+    height: 80px;
+
+    /* UI Properties */
+
+    background: #23CE6B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 8px #23CE6B80;
+    border-radius: 100px;
+    opacity: 1;
+    // padding: 23px 42px;
+    text-align: center;
+    font: normal normal bold 24px/30px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+// Success Stories Success Stories Success Stories Success Stories Success Stories Success Stories Success Stories Success Stories Success Stories
+
+.backgroungSeccesStories {
+    background-image: url('../../../assets/Images/Image\ 89.png');
+    padding: 45px 0px;
+}
+
+.SuccessStoriesHeading {
+    text-align: center;
+    font: normal normal 800 50px/49px Gilroy;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.SuccessStoriesText {
+    text-align: center;
+    font: normal normal medium 24px/49px RobotoLight;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+.storiesmainDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.StrotiesDivSetting {
+    padding: 58px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 316px;
+    // height: 608px;
+}
+
+.storiesSection1 {
+    background: #23CE6B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 8px #00000026;
+    opacity: 1
+}
+.storiesSection2 {
+    background: #08083D 0% 0% no-repeat padding-box;    box-shadow: 0px 6px 8px #00000026;
+    opacity: 1
+}
+
+.storiesSection3 {
+    background: #6184D8 0% 0% no-repeat padding-box;
+       box-shadow: 0px 6px 8px #00000026;
+    opacity: 1
+}
+
+.storiestext {
+    padding: 5px 0px;
+    text-align: center;
+    font: normal normal medium 16px/24px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+
+.storiesheading {
+    text-align: center;
+    font: normal normal bold 27px/49px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.storiesSubHeading {
+    text-align: center;
+    font: normal normal normal 21px/49px RobotoLight;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.paddingbottom40{
+    padding-bottom: 40px;
 }
