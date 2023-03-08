@@ -355,10 +355,20 @@
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    .Right-DivSEO {
+        width: 75%;
+    }
+
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+    .Right-DivSEO {
+        width: 75%;
+    }
+
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -700,3 +710,215 @@
 .paddingbottom40{
     padding-bottom: 40px;
 }
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    .StrotiesDivSetting {
+        padding: 58px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: fit-content;
+        // height: 608px;
+    }
+
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    .StrotiesDivSetting {
+        padding: 58px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: fit-content;
+        // height: 608px;
+    }
+
+ }
+
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    .StrotiesDivSetting {
+        padding: 58px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 316px;
+        // height: 608px;
+    }
+
+ }
+
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    .StrotiesDivSetting {
+        padding: 58px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 316px;
+        // height: 608px;
+    }
+
+ }
+
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {}
+
+
+// Gurantee section  Gurantee section  Gurantee section  Gurantee section  Gurantee section  Gurantee section Gurantee section  Gurantee section  Gurantee section
+
+.GuranteeContainer{
+    background: transparent linear-gradient(114deg, #6184D8 0%, #08083D 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
+padding: 70px 0px;
+}
+
+.GuranteeHeader{
+    text-align: center;
+font: normal normal 800 50px/49px Gilroy;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.Guranteesubheading{
+    text-align: center;
+font: normal normal bold 21px/30px RobotoLight;
+letter-spacing: 0px;
+color: #FFFFFF;
+}
+.GuranteText{
+    text-align: center;
+font: normal normal normal 21px/30px RobotoLight;
+letter-spacing: 0px;
+color: #FFFFFF;
+max-width: 932px;
+// height: 208px;
+
+
+}
+
+.paddingtopbottom29{
+    padding: 29px 0px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerText{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+// Section Section Section Section 2nd LAst  Section Section Section Section 2nd LAst  Section Section Section Section 2nd LAst
+
+.ImageSectionLasr{
+    max-width: 572px;
+}
+.lastsectionHeading{
+    text-align: left;
+font: normal normal medium 24px/49px Roboto;
+letter-spacing: 0px;
+color: #08083D;
+opacity: 1;
+}
+.lastsectionSubHeading{
+    text-align: left;
+    font: normal normal 800 50px/65px Gilroy;
+    letter-spacing: 0px;
+    color: #08083D;
+    opacity: 1;
+    padding-bottom: 50px;
+}
+
+.paddingtopbottom82{
+    padding: 82px 0px;
+}
+
+.flexSettingLastSection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.max-width{
+    max-width: 100%;
+}
+// Footer Section Footer Section Footer Section Footer Section 2nd LAst  Section Section Section Section 2nd LAst  Section Section Section Section 2nd LAst
+
+.FooterBackground{
+    background-image: url('../../../assets/Images/Group\ 2176.png');
+
+    padding: 40px 0px;
+}
+.FooterBackgroundflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+.FooterHeader{
+    text-align: right;
+font: normal normal 800 16px/19px Gilroy;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.FooterText{
+    text-align: right;
+font: normal normal 300 16px/19px GilroyLight;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.paddingImage2{
+    padding: 0px 10px;
+}
+
+
+.margintop20pxx{
+    margin-top: 20px;
+}
+.paddingtop43px{
+    margin-top: 43px;
+}
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    .marginasdaf{
+        margin: 5px 50px;    }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    .marginasdaf{
+        margin: 5px 50px;    }
+ }
+
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    .marginasdaf{
+        margin: 5px 0px;    }
+ }
+
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {}
+
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {}
